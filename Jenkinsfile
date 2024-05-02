@@ -8,12 +8,11 @@ pipeline {
                 sh 'echo Kubi'
                 echo 'not using shell in the Jenkinsfile'
                     }
+        }
         stage('test') {
             steps {
                 sh 'echo Yildiz'
-            }
-
+                    }
             }
         }
-    }
 }
